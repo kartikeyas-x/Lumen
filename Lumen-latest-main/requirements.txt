@@ -1,0 +1,12 @@
+SpeechRecognition
+google-cloud-texttospeech
+firebase-admin
+numpy
+opencv-python
+gTTS
+pygame
+transformers
+torch
+Pillow
+simpleaudio
+pydub

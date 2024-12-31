@@ -1,0 +1,87 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+pi/
+path/
+
+#PEM Files
+*.pem 
+
+# Ignore config files that contain sensitive information
+firebase_creds.json
+storage_creds.json
+config.py
+local_data.json
+
+# Docker
+Dockerfile
+
+# Ignore test files or temporary files
+test.txt
+*.log
+
+# Python package dependencies
+*.egg-info/
+*.dist-info/
+*.eggs
+*.whl
+
+# Python environment files
+.env
+.env.*
+.pipfile
+Pipfile.lock
+
+# Ignore machine-specific settings
+.vscode/
+.idea/
+
+# Other backups or unnecessary system files
+.DS_Store
+Thumbs.db
+
+
+# # # # # # # # 
+
+# Node modules
+node_modules/
+**/node_modules/
+frontend/node_modules
+/frontend/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+jspm_packages/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Test coverage
+coverage/
+
+# IDE and editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Other files
+package-lock.json
+yarn.lock
+.vercel
